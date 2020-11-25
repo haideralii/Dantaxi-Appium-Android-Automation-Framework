@@ -1,0 +1,5 @@
+Tests\DataProvider\DataSetForTest.class
+Tests\HomeMapScreenTests.class
+Tests\LoginTests.class
+Tests\BaseTests.class
+Tests\WelcomeScreenTests.class

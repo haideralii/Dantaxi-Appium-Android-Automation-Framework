@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-11-25T21:37:36 PKT" name="Surefire suite" finished-at="2020-11-25T21:40:50 PKT" duration-ms="194118">
+    <groups>
+    </groups>
+    <test started-at="2020-11-25T21:37:36 PKT" name="Surefire test" finished-at="2020-11-25T21:40:50 PKT" duration-ms="194118">
+      <class name="Tests.WelcomeScreenTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.WelcomeScreenTests@4d49af10]" started-at="2020-11-25T21:39:44 PKT" name="setUp" finished-at="2020-11-25T21:40:14 PKT" duration-ms="29841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyGetStartedBtnTest()[pri:0, instance:Tests.WelcomeScreenTests@4d49af10]" started-at="2020-11-25T21:40:14 PKT" name="VerifyGetStartedBtnTest" finished-at="2020-11-25T21:40:16 PKT" duration-ms="2027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyGetStartedBtnTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:Tests.WelcomeScreenTests@4d49af10]" started-at="2020-11-25T21:40:16 PKT" name="recordFailure" finished-at="2020-11-25T21:40:16 PKT" duration-ms="106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyGetStartedBtnTest status=SUCCESS method=WelcomeScreenTests.VerifyGetStartedBtnTest()[pri:0, instance:Tests.WelcomeScreenTests@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.WelcomeScreenTests@4d49af10]" started-at="2020-11-25T21:40:16 PKT" name="setUp" finished-at="2020-11-25T21:40:48 PKT" duration-ms="32037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyLoginAsAnonymousUserBtnTest()[pri:0, instance:Tests.WelcomeScreenTests@4d49af10]" started-at="2020-11-25T21:40:48 PKT" name="VerifyLoginAsAnonymousUserBtnTest" finished-at="2020-11-25T21:40:50 PKT" duration-ms="1862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginAsAnonymousUserBtnTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:Tests.WelcomeScreenTests@4d49af10]" started-at="2020-11-25T21:40:50 PKT" name="recordFailure" finished-at="2020-11-25T21:40:50 PKT" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyLoginAsAnonymousUserBtnTest status=SUCCESS method=WelcomeScreenTests.VerifyLoginAsAnonymousUserBtnTest()[pri:0, instance:Tests.WelcomeScreenTests@4d49af10] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- Tests.WelcomeScreenTests -->
+      <class name="Tests.BaseTests">
+        <test-method is-config="true" signature="killAllNodes()[pri:0, instance:Tests.BaseTests@6591f517]" started-at="2020-11-25T21:37:36 PKT" name="killAllNodes" finished-at="2020-11-25T21:37:36 PKT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killAllNodes -->
+      </class> <!-- Tests.BaseTests -->
+      <class name="Tests.HomeMapScreenTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.HomeMapScreenTests@345965f2]" started-at="2020-11-25T21:37:36 PKT" name="setUp" finished-at="2020-11-25T21:38:09 PKT" duration-ms="32408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyDenySystemLocationAccessTest()[pri:0, instance:Tests.HomeMapScreenTests@345965f2]" started-at="2020-11-25T21:38:09 PKT" name="VerifyDenySystemLocationAccessTest" finished-at="2020-11-25T21:38:16 PKT" duration-ms="7549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDenySystemLocationAccessTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:Tests.HomeMapScreenTests@345965f2]" started-at="2020-11-25T21:38:16 PKT" name="recordFailure" finished-at="2020-11-25T21:38:16 PKT" duration-ms="111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyDenySystemLocationAccessTest status=SUCCESS method=HomeMapScreenTests.VerifyDenySystemLocationAccessTest()[pri:0, instance:Tests.HomeMapScreenTests@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.HomeMapScreenTests@345965f2]" started-at="2020-11-25T21:38:16 PKT" name="setUp" finished-at="2020-11-25T21:38:49 PKT" duration-ms="32504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyFullScreenCloseTest()[pri:0, instance:Tests.HomeMapScreenTests@345965f2]" started-at="2020-11-25T21:38:49 PKT" name="VerifyFullScreenCloseTest" finished-at="2020-11-25T21:38:57 PKT" duration-ms="8186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFullScreenCloseTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:Tests.HomeMapScreenTests@345965f2]" started-at="2020-11-25T21:38:57 PKT" name="recordFailure" finished-at="2020-11-25T21:38:57 PKT" duration-ms="102" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyFullScreenCloseTest status=SUCCESS method=HomeMapScreenTests.VerifyFullScreenCloseTest()[pri:0, instance:Tests.HomeMapScreenTests@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- Tests.HomeMapScreenTests -->
+      <class name="Tests.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTests@429bd883]" started-at="2020-11-25T21:38:57 PKT" name="setUp" finished-at="2020-11-25T21:39:30 PKT" duration-ms="33077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginWithNormalUser(java.lang.String)[pri:0, instance:Tests.LoginTests@429bd883]" started-at="2020-11-25T21:39:30 PKT" name="LoginWithNormalUser" data-provider="AlreadyRegisteredPhoneNumberData" finished-at="2020-11-25T21:39:44 PKT" duration-ms="14020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[63636363]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithNormalUser -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:Tests.LoginTests@429bd883]" started-at="2020-11-25T21:39:44 PKT" name="recordFailure" finished-at="2020-11-25T21:39:44 PKT" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginWithNormalUser status=SUCCESS method=LoginTests.LoginWithNormalUser(java.lang.String)[pri:0, instance:Tests.LoginTests@429bd883] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- Tests.LoginTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

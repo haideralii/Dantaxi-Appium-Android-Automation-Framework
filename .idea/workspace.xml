@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6e3b6d5-d9ef-465b-a73f-31fa72b84623" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DantaxiAndroidAutomationFramework.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="214" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\haider.ali\Desktop\appiumMavenProject\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1j0cVu6rt3twclhbtwtl546GjTO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\haider.ali\Desktop\appiumMavenProject" />
+      <recent name="C:\Users\haider.ali\Desktop\appiumMavenProject\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Tests.Utilities" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Utilities" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\haider.ali\Desktop\appiumMavenProject\src\Tests\Java" />
+      <recent name="C:\Users\haider.ali\Desktop\appiumMavenProject" />
+      <recent name="C:\Users\haider.ali\Desktop\appiumMavenProject\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTests.LoginWithNormalUser">
+    <configuration name="C:/Users/haider.ali/Desktop/appiumMavenProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DantaxiAndroidAutomationFramework" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeMapScreenTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DantaxiAndroidAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HomeMapScreenTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeMapScreenTests.VerifyDenySystemLocationAccessTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DantaxiAndroidAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HomeMapScreenTests" />
+      <option name="METHOD_NAME" value="VerifyDenySystemLocationAccessTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeMapScreenTests.VerifyFullScreenCloseTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DantaxiAndroidAutomationFramework" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests.HomeMapScreenTests" />
+      <option name="METHOD_NAME" value="VerifyFullScreenCloseTest" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.LoginWithNormalUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DantaxiAndroidAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.LoginTests" />
+      <option name="METHOD_NAME" value="LoginWithNormalUser" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.HomeMapScreenTests.VerifyFullScreenCloseTest" />
+      <item itemvalue="TestNG.C:/Users/haider.ali/Desktop/appiumMavenProject/testng.xml" />
+      <item itemvalue="TestNG.HomeMapScreenTests.VerifyDenySystemLocationAccessTest" />
+      <item itemvalue="TestNG.HomeMapScreenTests" />
+      <item itemvalue="TestNG.LoginTests.LoginWithNormalUser" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoginTests.LoginWithNormalUser" />
+        <item itemvalue="TestNG.HomeMapScreenTests" />
+        <item itemvalue="TestNG.C:/Users/haider.ali/Desktop/appiumMavenProject/testng.xml" />
+        <item itemvalue="TestNG.HomeMapScreenTests.VerifyDenySystemLocationAccessTest" />
+        <item itemvalue="TestNG.HomeMapScreenTests.VerifyFullScreenCloseTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6e3b6d5-d9ef-465b-a73f-31fa72b84623" name="Default Changelist" comment="" />
+      <created>1602944476166</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602944476166</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="509" y="65" key="#&lt;default&gt;" timestamp="1604007317977">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="65" key="#&lt;default&gt;/0.0.1600.860@0.0.1600.860" timestamp="1604007317977" />
+    <state x="392" y="89" key="#Java" timestamp="1602946989342">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#Java/0.0.1600.860@0.0.1600.860" timestamp="1602946989342" />
+    <state x="392" y="89" key="#Plugins" timestamp="1604008187759">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#Plugins/0.0.1600.860@0.0.1600.860" timestamp="1604008187759" />
+    <state x="392" y="89" key="#Project_Structure" timestamp="1604007511686">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1604007511686" />
+    <state x="509" y="78" key="#WelcomeScreenTests" timestamp="1602958146525">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="509" y="78" key="#WelcomeScreenTests/0.0.1600.860@0.0.1600.860" timestamp="1602958146525" />
+    <state x="254" y="85" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605970604765">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" width="1092" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1605970604765" />
+    <state x="562" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605872523462">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="562" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1605872523462" />
+    <state x="580" y="136" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1602955496763">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="136" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860@0.0.1600.860" timestamp="1602955496763" />
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1605871863391">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1605871863391" />
+    <state x="530" y="207" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605870008039">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="207" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1600.860@0.0.1600.860" timestamp="1605870008039" />
+    <state x="461" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1605871189585">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="461" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1605871189585" />
+    <state x="596" y="290" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602949686844">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="596" y="290" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1602949686844" />
+    <state x="580" y="186" key="FileChooserDialogImpl" timestamp="1606329077079">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="186" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1606329077079" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1605888918153">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1605888918153" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1605888918153">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1605888918153" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1605888918153">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1605888918153" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1605888918153">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1605888918153" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1604017668047">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604017668047" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1604017668047">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1604017668047" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1604017668046">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1604017668046" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1604017668047">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1604017668047" />
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog" timestamp="1605868560815">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1605868560815" />
+    <state x="486" y="11" key="SettingsEditor" timestamp="1605903536904">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="486" y="11" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1605903536904" />
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1606329103773">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1606329103773" />
+    <state x="616" y="209" key="chooseDestDirectoryDialog" timestamp="1605870014315">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="616" y="209" key="chooseDestDirectoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1605870014315" />
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1606317444511">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1606317444511" />
+    <state x="571" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605866241692">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="571" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1605866241692" />
+    <state x="431" y="127" width="737" height="606" key="find.popup" timestamp="1605865245245">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="431" y="127" width="737" height="606" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1605865245245" />
+    <state x="182" y="126" key="new project wizard" timestamp="1606326894458">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="126" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1606326894458" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1604017594777">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1604017594777" />
+    <state x="863" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1604008169870">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="863" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1604008169870" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/appiumMavenProject$C__Users_haider_ali_Desktop_appiumMavenProject_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1604016427369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
