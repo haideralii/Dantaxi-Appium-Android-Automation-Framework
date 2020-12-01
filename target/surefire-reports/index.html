@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-skipped">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,31 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">5 methods,  3 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Tests.HomeMapScreenTests" class="method navigator-link" hash-for-method="VerifyDenySystemLocationAccessTest">VerifyDenySystemLocationAccessTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Tests.HomeMapScreenTests" class="method navigator-link" hash-for-method="VerifyFullScreenCloseTest">VerifyFullScreenCloseTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="Tests.WelcomeScreenTests" class="method navigator-link" hash-for-method="VerifyLoginAsAnonymousUserBtnTest">VerifyLoginAsAnonymousUserBtnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,22 +133,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="Tests.HomeMapScreenTests" class="method navigator-link" hash-for-method="VerifyDenySystemLocationAccessTest">VerifyDenySystemLocationAccessTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="Tests.HomeMapScreenTests" class="method navigator-link" hash-for-method="VerifyFullScreenCloseTest">VerifyFullScreenCloseTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="Tests.WelcomeScreenTests" class="method navigator-link" hash-for-method="VerifyGetStartedBtnTest">VerifyGetStartedBtnTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="Tests.WelcomeScreenTests" class="method navigator-link" hash-for-method="VerifyLoginAsAnonymousUserBtnTest">VerifyLoginAsAnonymousUserBtnTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -139,6 +148,171 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.HomeMapScreenTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyDenySystemLocationAccessTest">
+                  </a> <!-- VerifyDenySystemLocationAccessTest -->
+                  <span class="method-name">VerifyDenySystemLocationAccessTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Connection refused: no further information
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TEO-HAIDER1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: driver.version: EnhancedAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:94)
+	at com.microsoft.appcenter.appium.EnhancedAndroidDriver.&lt;init&gt;(EnhancedAndroidDriver.java:17)
+	at com.microsoft.appcenter.appium.LocalProvider.createAndroidDriver(LocalProvider.java:20)
+	at com.microsoft.appcenter.appium.Factory.createAndroidDriver(Factory.java:51)
+	at Tests.BaseTests.setUp(BaseTests.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:603)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	... 52 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFullScreenCloseTest">
+                  </a> <!-- VerifyFullScreenCloseTest -->
+                  <span class="method-name">VerifyFullScreenCloseTest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Connection refused: no further information
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;TEO-HAIDER1&apos;, ip: &apos;10.0.75.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.1&apos;
+Driver info: driver.version: EnhancedAndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.lambda$5(AppiumCommandExecutor.java:251)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:98)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:94)
+	at com.microsoft.appcenter.appium.EnhancedAndroidDriver.&lt;init&gt;(EnhancedAndroidDriver.java:17)
+	at com.microsoft.appcenter.appium.LocalProvider.createAndroidDriver(LocalProvider.java:20)
+	at com.microsoft.appcenter.appium.Factory.createAndroidDriver(Factory.java:51)
+	at Tests.BaseTests.setUp(BaseTests.java:88)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:579)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:339)
+	at java.base/java.net.Socket.connect(Socket.java:603)
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+	at okhttp3.RealCall.execute(RealCall.java:77)
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	... 52 more
+... Removed 40 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Tests.WelcomeScreenTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyLoginAsAnonymousUserBtnTest">
+                  </a> <!-- VerifyLoginAsAnonymousUserBtnTest -->
+                  <span class="method-name">VerifyLoginAsAnonymousUserBtnTest</span>
+                  <div class="stack-trace">java.lang.RuntimeException: Unable to get test information. Make sure the test class includes a @Rule:
+  @Rule
+  public TestWatcher watcher = Factory.createWatcher();
+	at com.microsoft.appcenter.appium.EventReporter.getRun(EventReporter.java:47)
+	at com.microsoft.appcenter.appium.EventReporter.reportLabel(EventReporter.java:60)
+	at com.microsoft.appcenter.appium.EnhancedAndroidDriver.lambda$label$1(EnhancedAndroidDriver.java:74)
+	at com.microsoft.appcenter.appium.EnhancedAndroidDriver.access$lambda$1(EnhancedAndroidDriver.java)
+	at com.microsoft.appcenter.appium.EnhancedAndroidDriver$$Lambda$4.accept(Unknown Source)
+	at com.microsoft.appcenter.appium.DriverHelper.getScreenshotToWorkspace(DriverHelper.java:21)
+	at com.microsoft.appcenter.appium.EnhancedAndroidDriver.label(EnhancedAndroidDriver.java:73)
+	at Tests.BaseTests.recordFailure(BaseTests.java:130)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -150,13 +324,6 @@
                   <a name="VerifyGetStartedBtnTest">
                   </a> <!-- VerifyGetStartedBtnTest -->
                   <span class="method-name">VerifyGetStartedBtnTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyLoginAsAnonymousUserBtnTest">
-                  </a> <!-- VerifyLoginAsAnonymousUserBtnTest -->
-                  <span class="method-name">VerifyLoginAsAnonymousUserBtnTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,28 +340,6 @@
                   </a> <!-- LoginWithNormalUser(63636363) -->
                   <span class="method-name">LoginWithNormalUser</span>
                   <span class="parameters">(63636363)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Tests.HomeMapScreenTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyDenySystemLocationAccessTest">
-                  </a> <!-- VerifyDenySystemLocationAccessTest -->
-                  <span class="method-name">VerifyDenySystemLocationAccessTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyFullScreenCloseTest">
-                  </a> <!-- VerifyFullScreenCloseTest -->
-                  <span class="method-name">VerifyFullScreenCloseTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -258,28 +403,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LoginWithNormalUser')
 data.setCell(0, 2, 'Tests.LoginTests')
-data.setCell(0, 3, 14020);
+data.setCell(0, 3, 16557);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyFullScreenCloseTest')
-data.setCell(1, 2, 'Tests.HomeMapScreenTests')
-data.setCell(1, 3, 8186);
+data.setCell(1, 1, 'VerifyGetStartedBtnTest')
+data.setCell(1, 2, 'Tests.WelcomeScreenTests')
+data.setCell(1, 3, 1951);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'VerifyDenySystemLocationAccessTest')
 data.setCell(2, 2, 'Tests.HomeMapScreenTests')
-data.setCell(2, 3, 7549);
+data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyGetStartedBtnTest')
+data.setCell(3, 1, 'VerifyLoginAsAnonymousUserBtnTest')
 data.setCell(3, 2, 'Tests.WelcomeScreenTests')
-data.setCell(3, 3, 2027);
+data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'VerifyLoginAsAnonymousUserBtnTest')
-data.setCell(4, 2, 'Tests.WelcomeScreenTests')
-data.setCell(4, 3, 1862);
+data.setCell(4, 1, 'VerifyFullScreenCloseTest')
+data.setCell(4, 2, 'Tests.HomeMapScreenTests')
+data.setCell(4, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -298,6 +443,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
+              <span class="ignored-class-name">Tests.HomeMapScreenTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">killAllNodes</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
               <span class="ignored-class-name">Tests.WelcomeScreenTests</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">killAllNodes</span>
@@ -306,13 +458,6 @@ return data;
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">Tests.LoginTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">killAllNodes</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">Tests.HomeMapScreenTests</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">killAllNodes</span>
                 <br/>
@@ -335,70 +480,76 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.HomeMapScreenTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">setUp</span>
-                <span class="method-start">80 ms</span>
+                <span class="method-start">95 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyDenySystemLocationAccessTest</span>
-                <span class="method-start">32489 ms</span>
+                <span class="method-start">13255 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">recordFailure([TestResult name=VerifyDenySystemLocationAccessTest status=SUCCESS method=HomeMapScreenTests.VerifyD...)</span>
-                <span class="method-start">40044 ms</span>
+                <span class="method-name">recordFailure</span>
+                <span class="method-start">13258 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">40160 ms</span>
+                <span class="method-start">13260 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyFullScreenCloseTest</span>
-                <span class="method-start">72664 ms</span>
+                <span class="method-start">13260 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">recordFailure([TestResult name=VerifyFullScreenCloseTest status=SUCCESS method=HomeMapScreenTests.VerifyFullScreen...)</span>
-                <span class="method-start">80852 ms</span>
+                <span class="method-name">recordFailure</span>
+                <span class="method-start">13261 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.LoginTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">80977 ms</span>
+                <span class="method-start">13273 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginWithNormalUser(63636363)</span>
-                <span class="method-start">114055 ms</span>
+                <span class="method-start">49502 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">recordFailure([TestResult name=LoginWithNormalUser status=SUCCESS method=LoginTests.LoginWithNormalUser(java.lang....)</span>
-                <span class="method-start">128076 ms</span>
+                <span class="method-start">66068 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Tests.WelcomeScreenTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">128131 ms</span>
+                <span class="method-start">67220 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyGetStartedBtnTest</span>
-                <span class="method-start">157973 ms</span>
+                <span class="method-start">95353 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">recordFailure([TestResult name=VerifyGetStartedBtnTest status=SUCCESS method=WelcomeScreenTests.VerifyGetStartedBt...)</span>
-                <span class="method-start">160004 ms</span>
+                <span class="method-start">97304 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">160111 ms</span>
+                <span class="method-start">101643 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyLoginAsAnonymousUserBtnTest</span>
-                <span class="method-start">192148 ms</span>
+                <span class="method-start">101644 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">recordFailure([TestResult name=VerifyLoginAsAnonymousUserBtnTest status=SUCCESS method=WelcomeScreenTests.VerifyLo...)</span>
-                <span class="method-start">194010 ms</span>
+                <span class="method-name">recordFailure</span>
+                <span class="method-start">101645 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

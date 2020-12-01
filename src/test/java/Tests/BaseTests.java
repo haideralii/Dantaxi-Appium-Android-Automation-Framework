@@ -2,9 +2,13 @@ package Tests;
 
 import ScreenObjects.WelcomeScreenObjects;
 import com.google.common.io.Files;
-import io.appium.java_client.AppiumDriver;
+import com.microsoft.appcenter.appium.EnhancedAndroidDriver;
+import com.microsoft.appcenter.appium.Factory;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
+import org.junit.Rule;
+import org.junit.rules.TestWatcher;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -22,12 +26,16 @@ import java.util.Properties;
 
 
 public class BaseTests {
+   // private static EnhancedAndroidDriver<MobileElement> driver;
 
-    private AppiumDriver driver;
+
+    private EnhancedAndroidDriver<MobileElement> driver;
     protected WelcomeScreenObjects _welcomeScreen;
     private AppiumDriverLocalService service;
 
-
+    // To Run on DevOps
+    @Rule
+    public TestWatcher watcher = Factory.createWatcher();
 
     public AppiumDriverLocalService startServer() throws IOException {
         boolean _serverStarted = CheckIfServerStarted(4723);
@@ -55,13 +63,13 @@ public class BaseTests {
         String _appName = (String) _prop.get("DantaxiApp");
 
         // This line was to get device name from properties file
-   //     String _device = (String) _prop.get("DEVICE");
+        //     String _device = (String) _prop.get("DEVICE");
 
         // This line will be used to get Device name at run time
         String deviceName = System.getProperty("deviceName");
 
-         File _fileFolderPath = new File("src");
-         File _filepath = new File(_fileFolderPath, _appName);
+        File _fileFolderPath = new File("src");
+        File _filepath = new File(_fileFolderPath, _appName);
 
          DesiredCapabilities dc = new DesiredCapabilities();
 
@@ -75,7 +83,11 @@ public class BaseTests {
             // connect to server
 
         URL url = new URL("http://127.0.0.1:4723/wd/hub");
-        driver = new AppiumDriver(url, dc);
+    //    driver = (EnhancedAndroidDriver<MobileElement>) new AndroidDriver<MobileElement>(url, dc);
+
+        driver = Factory.createAndroidDriver(url, dc);
+
+
         _welcomeScreen = new WelcomeScreenObjects(driver);
     }
 
@@ -115,6 +127,7 @@ public class BaseTests {
         }
 
         // and stop service
+        driver.label("Stopping App");
         service.stop();
 
     }

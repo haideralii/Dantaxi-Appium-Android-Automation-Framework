@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 197.401 s - in TestSuite
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 8, Time elapsed: 105.071 s <<< FAILURE! - in TestSuite
+Tests.HomeMapScreenTests.setUp  Time elapsed: 14.244 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Connection refused: no further information
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TEO-HAIDER1', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: driver.version: EnhancedAndroidDriver
+Caused by: java.net.ConnectException: Connection refused: no further information
+
+Tests.LoginTests.recordFailure[[TestResult name=LoginWithNormalUser status=SUCCESS method=LoginTests.LoginWithNormalUser(java.lang.String)[pri:0, instance:Tests.LoginTests@5bfa9431] output={null}]](0)  Time elapsed: 17.32 s  <<< FAILURE!
+java.lang.RuntimeException: 
+Unable to get test information. Make sure the test class includes a @Rule:
+  @Rule
+  public TestWatcher watcher = Factory.createWatcher();
+
+Tests.WelcomeScreenTests.recordFailure[[TestResult name=VerifyGetStartedBtnTest status=SUCCESS method=WelcomeScreenTests.VerifyGetStartedBtnTest()[pri:0, instance:Tests.WelcomeScreenTests@5db250b4] output={null}]](0)  Time elapsed: 7.172 s  <<< FAILURE!
+java.lang.RuntimeException: 
+Unable to get test information. Make sure the test class includes a @Rule:
+  @Rule
+  public TestWatcher watcher = Factory.createWatcher();
+
